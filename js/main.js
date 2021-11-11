@@ -91,6 +91,9 @@ $(function() {
     $('#users_container').slideDown('fast');
     $('#posts_container').slideUp('fast');
 
+    // Clean the Posts table.
+    $('#posts_table tbody').empty();
+
   });
 
 });
